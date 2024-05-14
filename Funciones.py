@@ -1,0 +1,2 @@
+# Funciones
+print("hola")
