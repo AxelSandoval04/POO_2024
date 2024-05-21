@@ -1,7 +1,7 @@
 # Practicca 5
 # Pedir los 2 números al usuario
-num1 = int(input("Introduce el primer número: "))
-num2 = int(input("Introduce el segundo número: "))
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
 
 # Verificar que el primer número es menor que el segundo
 if num1 > num2:
