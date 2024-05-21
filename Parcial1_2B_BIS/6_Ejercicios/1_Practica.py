@@ -1,4 +1,5 @@
-#Introduccir  Variables
+# Practica 1
+# Introduccir  Variables
 pais = "México"  # tipo del dato: str
 continente = "América"  # tipo del dato: str
 
