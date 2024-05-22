@@ -4,7 +4,7 @@ aprobados = 0
 reprobados = 0
 for i in range(1, 16):
     calif = int(input("Ingrese la calificacion del alumno: "))
-    if calif <=60:
+    if calif <=80:
        reprobados += 1
     else:
         aprobados += 1
