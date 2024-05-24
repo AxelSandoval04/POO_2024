@@ -3,10 +3,7 @@ codigo_producto = input("Ingrese el código del producto: ")
 cantidad = int(input("Ingrese la cantidad del producto: "))
 precio_unitario = float(input("Ingrese el precio unitario del producto: "))
     
-    # Definir el porcentaje de IVA
 IVA = 0.16
-    
-    # Calcular el descuento basado en la cantidad
 if 1 <= cantidad <= 5:
         descuento = 0.10
 elif 6 <= cantidad <= 10:
@@ -15,22 +12,11 @@ elif cantidad > 10:
         descuento = 0.20
 else:
         descuento = 0
-
-    # Calcular el precio total sin IVA y sin descuento
 subtotal = cantidad * precio_unitario
-    
-    # Calcular el descuento
 monto_descuento = subtotal * descuento
 subtotal_con_descuento = subtotal - monto_descuento
-    
-    # Calcular el IVA sobre el subtotal con descuento
 monto_iva = subtotal_con_descuento * IVA
-    
-    # Calcular el total a pagar
 total_a_pagar = subtotal_con_descuento + monto_iva
-    
-    # Mostrar los resultados
-
 print("\nDetalles del producto:")
 print(f"Nombre/Descripción: {nombre_producto}")
 print(f"Código: {codigo_producto}")

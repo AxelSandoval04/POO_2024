@@ -8,3 +8,6 @@ print("País:", pais) # Tipo de dato
 print("Tipo de dato:", type(pais))
 print("Continente:", continente)
 print("Tipo de dato", type(continente))
+
+print("Modificacion")
+x=33
