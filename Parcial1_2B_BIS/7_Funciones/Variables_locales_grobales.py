@@ -5,7 +5,7 @@ def funcion_ejemplo():
     # Esta es una variable local
     y = 5
     
-    # Podemos acceder y modificar la variable global usando la palabra clave 'global'
+    # Podemos acceder y modificar la variable global usando la palabra clave 'global'.
     global x
     x = x + y
     print("Dentro de la función, x (global) es:", x)

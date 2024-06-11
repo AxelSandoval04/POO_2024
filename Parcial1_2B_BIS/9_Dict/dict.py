@@ -32,7 +32,8 @@ print(alumnos)
 alumnos.update({"telefono":6182334567})
 print(alumnos)
 
-#Eliminar elementos
+#Eliminar elementos de el diccionario
+
 alumnos.pop("semestres")
 print(alumnos)
 

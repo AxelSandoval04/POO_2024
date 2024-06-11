@@ -34,7 +34,7 @@ def main():
         print("5. Salir")
         
         operacion =(input("Operación: "))
-        
+        #.
         if operacion == 5:
             print("Saliendo...")
             break

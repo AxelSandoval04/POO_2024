@@ -44,7 +44,7 @@ resultado_suma=suma()
 print(f"La suma es: {resultado_suma}")
 
 #Ejemplo 4 sumar dos numeros 
-# 3.- Funcion que recibe parametros y no regresa valor
+# 3.- Funcion que recibe parametros y no regresa valor.
 def suma(num1,num2):
     suma=num1+num2
     print(f"La suma es: {suma}")

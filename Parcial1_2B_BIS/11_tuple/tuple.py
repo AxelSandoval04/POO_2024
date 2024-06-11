@@ -8,7 +8,7 @@ todos con diferentes calidades y usos.
 
    Una tupla es una colección ordenada e inmutable .
 
-   Las tuplas se escriben entre paréntesis.
+   Las tuplas se escriben entre paréntesis..
 
 
 """

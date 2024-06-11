@@ -3,7 +3,7 @@
 # def decorador_saludo(func):
 #     def envoltura():
 #         print("Hola!")
-#         func()
+#         func().
 #         print("Adiós!")
 #     return envoltura
 # @decorador_saludo

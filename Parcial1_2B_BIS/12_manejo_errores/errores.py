@@ -2,7 +2,7 @@
 #n tiempo de ejecucion.... cuando se manejan los errores mediante las excepciones en realidad se dice que se evita que se presenten
 #esos errores en programa en timepo ejecucion
 
-#ejemplo cuando s epresenta un error cuando no es generada una variable
+#ejemplo cuando s epresenta un error cuando no es generada una variable.
 try:
  nombre=input("dame el nombre de una persona: ")
  if len(nombre)>0:

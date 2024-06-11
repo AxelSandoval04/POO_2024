@@ -21,6 +21,6 @@ def getCalculadora(num1,num2,operacion):
 print("\n\t..::: CALCULADORA BÁSICA :::... \n 1.- Suma \n 2.- Resta \n 3.-Multiplicacion \n 4.- División \n 5.- SALIR ")
 opcion=input("\t Elige una opción: ").upper()
 
-
+#.
 solicitarDatos()
 print(getCalculadora(n1,n2,ope))
