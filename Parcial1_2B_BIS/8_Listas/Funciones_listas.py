@@ -15,7 +15,7 @@ texto.insert(len(texto),"True")
 print(texto)
 texto.insert(len(texto),True)
 print(texto)
-texto.append(False)#Inserta un valor pero al final de la lista 
+texto.append(False)#Inserta un valor pero al final de la lista.
 print(texto)
 
 #Eliminar elementos

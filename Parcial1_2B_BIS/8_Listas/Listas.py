@@ -14,7 +14,7 @@ import os
 lista=[23,34]
 print(lista)
 
-# recorre la lista con el for
+# recorre la lista con el for.
 for i in lista:
     print(i)
 
