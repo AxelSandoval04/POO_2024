@@ -2,12 +2,10 @@
 Existe una estructura de condicion la cual evalua una condicion para encontrar el valor TRUE o se cumple una condicion ejecuta la linea
 o lineas de codigo
 """
-
 # 1.- if simple 
 # 2.- if compuesto
 # 3.- if anidado
 # 4.- if y elseif
-
 # 1.+
 color="rojo"
 if color =="rojo":

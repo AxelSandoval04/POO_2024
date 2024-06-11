@@ -2,7 +2,6 @@
 # Las variables en python son debilmente tipadas es decir 
 # no se indica el tipo de dato de una variable solo basta con 
 # crear la variable e indicarle el valor o el dato 
-    
 Num=4
 Altura=1.80
 Ciudad="Durango"
