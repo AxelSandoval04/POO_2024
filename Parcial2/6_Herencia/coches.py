@@ -81,9 +81,7 @@ class Coche:
         self.plazas = plazas
 
     def getInfo(self):
-        print( f"Marca: {self.getMarca}, Color: {self.getColor}, 
-        Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, 
-        Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas}")
+        print( f"Marca: {self.getMarca}, Color: {self.getColor}, Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas}")
     """""
         En python el encapsulamiento tambien se le llama visibilidad y por lo general define como seran
         los atributos y metodos es decir publicos o privados
@@ -127,10 +125,7 @@ class Camiones(Coche):
         self.__capacidadCarga=capacidadCarga
 
     def getInfo(self):
-        print( f"Marca: {self.getMarca}, Color: {self.getColor}, 
-        Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, 
-        Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas} 
-        Eje: {self.getEje} Cerrada: {self.getCapacidadCarga}")
+        print( f"Marca: {self.getMarca}, Color: {self.getColor}, Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas} Eje: {self.getEje} Cerrada: {self.getCapacidadCarga}")
     
 class Camionetas(Coche):
     def _init_(self, marca, color, modelo, velocidad, caballaje, plazas, traccion, cerrada):
@@ -156,9 +151,6 @@ class Camionetas(Coche):
         self.cerrada=cerrada
     
     def getInfo(self):
-        print(f"Marca: {self.getMarca}, Color: {self.getColor}, 
-        Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, 
-        Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas} 
-        Traccion: {self.getTraccion} Cerrada: {self.getCapacidadCarga}")
+        print(f"Marca: {self.getMarca}, Color: {self.getColor}, Modelo: {self.getModelo}, Velocidad: {self.getVelocidad}, Caballaje: {self.getCaballaje}, Plazas: {self.getPlazas} Traccion: {self.getTraccion} Cerrada: {self.getCapacidadCarga}")
     
 
